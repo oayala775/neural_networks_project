@@ -11,8 +11,8 @@ import shutil
 # ----------------------------------------------------------
 # Configuraciones generales
 # ----------------------------------------------------------
-DATASET_PATH = r"D:\beto5\Descargas\Tareas\9no\Neuronales\a\PetImages"  # Ruta original NO OLVIDEN CAMBIAR
-DESTINO = r"D:\beto5\Descargas\Tareas\9no\Neuronales\a\PetImages_preprocesado"  # Guardado NO OLVIDEN CAMBIAR
+DATASET_PATH = r"datasets/PetImages"  # Ruta original NO OLVIDEN CAMBIAR
+DESTINO = r"datasets/PetImages_Processed"  # Guardado NO OLVIDEN CAMBIAR
 IMG_SIZE = (150, 150)  # Tamaño fijo
 os.makedirs(DESTINO, exist_ok=True)
 
